@@ -1,0 +1,29 @@
+.game-library__activity-feed {
+  width: 100%;
+  height: fit-content;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  gap: 50px;
+
+  margin-top: 15px;
+}
+.activity-feed__load-more-bttn {
+  width: 160px;
+  height: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: var(--Active-color);
+
+  padding: 5px;
+}
+.activity-feed__load-more-bttn p {
+  color: white;
+  text-transform: uppercase;
+}

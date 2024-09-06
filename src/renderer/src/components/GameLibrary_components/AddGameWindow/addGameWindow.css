@@ -1,0 +1,72 @@
+.game-library__add-game-window {
+  width: 50%;
+  height: 50%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  position: absolute;
+  top: 20%;
+  left: 50%;
+
+  transform: translate(-50%);
+
+  background: var(--Tab-color);
+
+  border-radius: 10px;
+
+  padding: 10px;
+
+  color: white;
+}
+.game-library__add-game-window form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  gap: 20px;
+}
+.add-game-window__name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  width: 253px;
+}
+.add-game-window__select-game-dir {
+  width: fit-content;
+  height: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  background: white;
+
+  border-radius: 3px;
+  padding: 3px;
+}
+
+.add-game-window__select-game-dir span {
+  font-size: 12px;
+  color: black;
+}
+
+.add-game-window__game-file-select {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.add-game-window__buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

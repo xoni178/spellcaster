@@ -1,0 +1,20 @@
+body {
+  background: url('./assets/bg_overlay.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.spellcaster {
+  padding: 11px 23px;
+
+  width: 100%;
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

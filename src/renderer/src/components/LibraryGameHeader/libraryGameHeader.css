@@ -1,0 +1,32 @@
+.home__library-game-header {
+  width: 210px;
+  height: 315px;
+
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.libraryHeader-container {
+  background: var(--Not-loaded-color);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: inherit;
+  box-shadow: 0 6px 10px 2px rgba(0, 0, 0, 0.26);
+}
+.home__library-game-header img {
+  width: 198px;
+  height: 297px;
+
+  border-radius: inherit;
+}
+.home__library-game-header img:hover {
+  cursor: pointer;
+
+  width: 210px;
+  height: 315px;
+}

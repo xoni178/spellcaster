@@ -1,0 +1,82 @@
+.trophy-component {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 20px;
+  padding: 7px;
+
+  background: rgb(37, 56, 71);
+
+  border-radius: 10px;
+}
+
+.trophy-component__body {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  gap: 20px;
+  padding: 4px;
+}
+
+.body__icon-container {
+  min-width: 62px;
+  min-height: 62px;
+
+  width: 62px;
+  height: 62px;
+
+  background: var(--Not-loaded-color);
+
+  border-radius: 5px;
+}
+
+.body__icon-container p {
+  font-size: 22px;
+}
+
+.body__icon-container img {
+  width: 100%;
+  height: 100%;
+
+  border-radius: inherit;
+}
+.body__text {
+  width: fit-content;
+  height: 100%;
+
+  max-width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  gap: 5px;
+}
+
+.text__title {
+  font-size: 18px;
+
+  color: var(--Text-color-default);
+}
+
+.text__desc {
+  font-size: 14px;
+
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.text__percentage {
+  font-size: 12px;
+
+  color: rgba(255, 255, 255, 0.301);
+}

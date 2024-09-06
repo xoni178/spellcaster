@@ -1,0 +1,43 @@
+:root {
+  --Tab-color: #1c1c1c;
+  --Text-color-default: #fff;
+  --Active-color: #d15825;
+  --Not-loaded-color: #a3a3a3;
+  --User-color: #135891;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  min-height: 100vh;
+  overflow: scroll;
+
+  font-family: 'Inconsolata', monospace;
+  font-weight: 700;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Prevent images from being draggable */
+img {
+  -webkit-user-drag: none;
+}
+
+/* prevent text selection for images */
+img {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}

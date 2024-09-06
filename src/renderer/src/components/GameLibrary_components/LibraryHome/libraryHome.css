@@ -1,0 +1,23 @@
+.game-library__home {
+  width: 100%;
+  height: fit-content;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  margin-top: 40px;
+  margin-left: 76px;
+}
+
+.home__body {
+  width: 100%;
+  height: fit-content;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  column-gap: 33px;
+  row-gap: 23px;
+}

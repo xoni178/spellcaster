@@ -1,0 +1,64 @@
+.activity-element-trophy-element {
+  width: 100%;
+  height: 125px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 10px 8px;
+
+  gap: 4px;
+  border-radius: 10px;
+
+  background: rgba(28, 28, 28, 0.5);
+}
+
+/*-------- Profile --------*/
+
+.body__profileInfo {
+  width: 120px;
+  height: 17px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  gap: 5px;
+}
+.body__profileInfo span {
+  font-size: 11px;
+  color: var(--Active-color);
+}
+.profileInfo__profile {
+  width: fit-content;
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  gap: 3px;
+}
+
+.avatar-container {
+  width: 17px;
+  height: 17px;
+
+  background: var(--Not-loaded-color);
+
+  border-radius: 3px;
+
+  box-shadow: 0 0 5px 3px rgba(28, 28, 28, 0.3);
+}
+
+.avatar-container img {
+  width: 100%;
+  height: 100%;
+
+  border-radius: inherit;
+}
+.profileInfo__profile p {
+  font-size: 10px;
+  color: var(--Text-color-default);
+}

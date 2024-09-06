@@ -1,0 +1,87 @@
+.spellcaster__settings {
+  width: 50%;
+  height: 50%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  position: absolute;
+  top: 20%;
+  left: 50%;
+
+  transform: translate(-50%);
+
+  background: var(--Tab-color);
+
+  border-radius: 10px;
+
+  padding: 10px;
+}
+
+.settings__change-game-folder {
+  width: 90%;
+  height: fit-content;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  gap: 3px;
+}
+
+.change-game-folder__button {
+  width: fit-content;
+  height: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 3px;
+  background: var(--Active-color);
+
+  padding: 3px;
+}
+
+.change-game-folder__button span {
+  font-size: 12px;
+
+  color: var(--Text-color-default);
+}
+
+.change-game-folder__button:hover {
+  cursor: pointer;
+}
+
+.settings__close {
+  width: 50px;
+  height: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+  background: var(--Active-color);
+
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+
+.settings__close:hover {
+  cursor: pointer;
+}
+
+.settings__change-game-folder h5 {
+  font-size: 13px;
+
+  color: var(--Text-color-default);
+}
+
+body {
+  overflow: hidden;
+}

@@ -1,0 +1,214 @@
+.game-hero__play-tab {
+  width: fit-content;
+  height: 300px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+
+  gap: 21px;
+}
+
+.play-tab__title {
+  max-width: 636px;
+  max-height: 308px;
+  width: fit-content;
+  height: fit-content;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 30px;
+}
+
+.play-tab__title img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.play-tab__play-banner {
+  width: 100%;
+  height: 75px;
+
+  background: #132330be;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  border-radius: 5px;
+
+  padding: 11px 14px;
+
+  gap: 7px;
+}
+
+/*-------------- BUTTONS ---------------- */
+
+.play-banner__buttons {
+  width: 234px;
+  height: 41px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  gap: 7px;
+}
+
+.buttons___play-button {
+  width: 143px;
+  height: 41px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  padding: 4px 10px;
+
+  gap: 10px;
+
+  border-radius: 7px;
+
+  text-transform: uppercase;
+
+  color: var(--Text-color-default);
+  background: var(--Active-color);
+}
+.buttons___play-button img {
+  width: 20px;
+  height: 20px;
+}
+
+.buttons___play-button:hover {
+  cursor: pointer;
+  background: #a84920;
+}
+
+.buttons__options {
+  width: 42px;
+  height: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 7px;
+
+  background: var(--Active-color);
+}
+
+.buttons__options img {
+  width: 13px;
+  height: 7.81px;
+}
+
+.buttons__options:hover {
+  cursor: pointer;
+  background: #a84920;
+}
+
+/*-------------- GAME DETAILS ------------ */
+
+.play-banner__game-details {
+  width: 100%;
+  height: 31px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  gap: 40px;
+}
+
+.game-details__last-played {
+  width: 115px;
+  height: 34px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  gap: 2px;
+
+  color: var(--Text-color-default);
+  text-transform: uppercase;
+}
+.game-details__play-time,
+.game-detials__achievements-progress {
+  width: 115px;
+  height: 34px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  gap: 6px;
+
+  text-transform: uppercase;
+
+  color: var(--Text-color-default);
+}
+
+.game-details__last-played p,
+.game-details__play-time p,
+.game-detials__achievements-progress p {
+  font-size: 15px;
+}
+
+.game-details__last-played span,
+.game-details__play-time span,
+.game-detials__achievements-progress span {
+  font-size: 13px;
+  opacity: 0.9;
+}
+
+.game-details__play-time img,
+.game-detials__achievements-progress img {
+  width: 27px;
+  height: 27px;
+}
+
+.container {
+  height: inherit;
+  gap: 2px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.achievements-progress__progress-bar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  gap: 2px;
+}
+
+.progress-bar__bar {
+  width: 100%;
+  height: 5px;
+
+  background: var(--Tab-color);
+
+  border-radius: 2px;
+}
+
+.achieved {
+  background: var(--Active-color);
+
+  width: 50%;
+  height: 100%;
+}

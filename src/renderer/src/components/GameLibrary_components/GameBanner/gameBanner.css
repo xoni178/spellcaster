@@ -1,0 +1,79 @@
+.spellcaster__game-banner {
+  width: 51px;
+  height: 945px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  background: url('../../../assets/Tab_bc.jpg');
+
+  border-radius: 10px 10px 0 0;
+
+  padding: 10px 5px;
+
+  gap: 10px;
+
+  overflow: scroll;
+
+  position: fixed;
+}
+
+.game-banner__home-button {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 4px;
+
+  padding: 3px;
+
+  background: transparent;
+}
+.game-banner__home-button p {
+  text-transform: uppercase;
+
+  color: var(--Text-color-default);
+}
+.game-banner__home-button:hover {
+  cursor: pointer;
+
+  background: var(--Active-color);
+}
+.game-banner__game-list {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+
+  padding: 10px 0;
+
+  gap: 10px;
+
+  overflow: scroll;
+}
+
+.game-banner__infoIcons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 10px;
+}
+
+.home-button-active {
+  cursor: pointer;
+
+  background: var(--Active-color);
+}
+
+.hover {
+  cursor: pointer;
+}
